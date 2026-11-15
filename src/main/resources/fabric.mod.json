@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "id": "rynek_analiza",
+  "version": "0.3.0",
+  "name": "Rynek Analiza (auto rynek z analizą cen)",
+  "description": "Auto rynek dla Anarchii: snajper ofert z zakładki Najnowsze, wystawianie kupionych przedmiotów, anty-AFK i restarty rynku - po cenach z wbudowanej analizy (/ah search, średnia 3 najtańszych, skup z marżą). Autopilot co 12 min analizuje ceny wszystkich przedmiotów. Lista przedmiotów importowana z BK-Rynku (BK nie jest już potrzebny).",
+  "authors": [],
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "pl.rynekanaliza.RynekAnalizaMod"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.15.11",
+    "minecraft": "1.21.4",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
